@@ -91,7 +91,15 @@ body{
     border: 2px solid black;
     padding: 0 20px;
     border-radius: 10px;
+    
 }
+#main-article-paragraph-container {
+    column-count: 2;
+    column-gap: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+
 #section-title{
     color: black;
     font-weight: bold;
@@ -111,10 +119,45 @@ body{
     border: 2px solid black;
     padding: 0 20px;
     border-radius: 10px;
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    padding: 15px;
+    width: 75.5%;
     
 
+
 }
+#conclusion-section{
+    margin-left: 20px;
+}
+#conclusion-h3{
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#conclusion-h3:hover{
+    cursor: pointer;
+    color: rgb(42, 41, 41);
+    scale: 1.1;
+    box-shadow: 0px 0px 10px black;
+}
+#conclusion-text{
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    padding: 0 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    column-count: 1;
+    column-gap: 40px;
+    height: 100%;
+    width: 75.5%;
+}
+footer{
+    margin-left: 15px;
+    margin-top: 100px;
+}
+
 
 
 
